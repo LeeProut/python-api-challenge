@@ -56,11 +56,11 @@ The scatter plot above shows there is no relationship between wind speed and a c
 3. Cloudiness less than 25%
 4. Wind Speed below 5 mph
 
-Let's focus on locations with low humidity: 
+Let's visualize locations that meet our criteria on a humidity heatmap: 
 
 ![Humidity Heatmap with ideal locations pinpointed](/VacationPy/Images/humidity_heatmap_with_hotel_markers.png)
 
-Finding a place to stay: 
+Finding a place to stay in ideal locations: 
 
 ![Hotel Locations pinpointed with marker info revealed](/VacationPy/Images/hotel_locations_with_marker_info.png)
 
