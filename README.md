@@ -40,12 +40,14 @@ The scatter plot above shows that there is no relationship between a city's lati
 The scatter plot above shows there is no relationship between wind speed and a city's latitude. A few outliers can be seen with high wind speeds, but as this data is a snapshot of weather events on a single date, this is not a reliable indication of a strong relationship between these variables. 
 
 ---
+### Comparing the Northern and Southern Hemispheres
 
 **Northern Hemisphere** | **Southern Hemisphere**
 --------------------- | ---------------------
 ![Northern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/n_hemi_latitudeVStemp.png) | ![Southern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/s_hemi_latitudeVStemp.png)
-
-
+![Northern Hemisphere City Latitude vs. Humidity (%)](/WeatherPy/Images/n_hemi_latitudeVShumidity.png) | ![Southern Hemisphere City Latitude vs. Humidity (%)](/WeatherPy/Images/s_hemi_latitudeVShumidity.png)
+![Northern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/n_hemi_latitudeVScloudiness.png) | [Southern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/s_hemi_latitudeVScloudiness.png) 
+![Northern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/n_hemi_latitudeVSwindspeed.png) | [Southern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/s_hemi_latitudeVSwindspeed.png)
 
 
 ### Defining parameters to find locations with ideal weather conditions: 
@@ -53,5 +55,17 @@ The scatter plot above shows there is no relationship between wind speed and a c
 2. Humidity below 80%
 3. Cloudiness less than 25%
 4. Wind Speed below 5 mph
+
+Let's focus on locations with low humidity: 
+
+![Humidity Heatmap with ideal locations pinpointed](/VacationPy/Images/humidity_heatmap_with_hotel_markers.png)
+
+Finding a place to stay: 
+
+![Hotel Locations pinpointed with marker info revealed](/VacationPy/Images/hotel_locations_with_marker_info.png)
+
+### Google heatmap with hotel markers observation: 
+As shown in the map above, after narrowing down possible vacation locales, most are in areas with moderate humidity. On a personal note, I was pleased to see the city of Wilmington, NC included. It's a place I know well from my four years attending UNC-Wilmington. I can personally recommend Wilmington as a pleasant place to visit, which boosts my confidence that the other locations would have great weather for traveling as well. 
+
 
 
