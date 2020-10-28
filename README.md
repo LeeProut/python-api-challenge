@@ -1,4 +1,4 @@
-## Planning a vacation with data:
+## Planning a vacation with data
 * Which locations have the best weather in mid-October? 
 * Where can I stay? 
 
@@ -7,8 +7,6 @@ Let's start at the top ... or the bottom ...
 Northern Hemisphere or Southern Hemisphere? 
 
 How does latitude affect weather parameters such as temperature, humidity, cloudiness, and wind speed? We took a random sampling of 605 cities across the globe, and compared them in terms of latitude versus current weather data. Weather data was collected on 10/27/2020 from the Open Weather API by an analyst based in the eastern United States.  
-
-Let's take a look: 
 
 ![City Latitude vs. Max Temperature (F) Scatter Plot](/WeatherPy/Images/latitudeVStemp.png)
 
@@ -49,7 +47,7 @@ The scatter plot above shows there is no relationship between wind speed and a c
 ![Northern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/n_hemi_latitudeVScloudiness.png) | [Southern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/s_hemi_latitudeVScloudiness.png) 
 ![Northern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/n_hemi_latitudeVSwindspeed.png) | [Southern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/s_hemi_latitudeVSwindspeed.png)
 
-
+---
 ### Defining parameters to find locations with ideal weather conditions: 
 1. Temperatures between 72-78 degrees Fahrenheit
 2. Humidity below 80%
@@ -66,6 +64,3 @@ Finding a place to stay in ideal locations:
 
 ### Google heatmap with hotel markers observation: 
 As shown in the map above, after narrowing down possible vacation locales, most are in areas with moderate humidity. On a personal note, I was pleased to see the city of Wilmington, NC included. It's a place I know well from my four years attending UNC-Wilmington. I can personally recommend Wilmington as a pleasant place to visit, which boosts my confidence that the other locations would have great weather for traveling as well. 
-
-
-
