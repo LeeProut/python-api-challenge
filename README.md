@@ -44,8 +44,8 @@ The scatter plot above shows there is no relationship between wind speed and a c
 --------------------- | ---------------------
 ![Northern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/n_hemi_latitudeVStemp.png) | ![Southern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/s_hemi_latitudeVStemp.png)
 ![Northern Hemisphere City Latitude vs. Humidity (%)](/WeatherPy/Images/n_hemi_latitudeVShumidity.png) | ![Southern Hemisphere City Latitude vs. Humidity (%)](/WeatherPy/Images/s_hemi_latitudeVShumidity.png)
-![Northern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/n_hemi_latitudeVScloudiness.png) | [Southern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/s_hemi_latitudeVScloudiness.png) 
-![Northern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/n_hemi_latitudeVSwindspeed.png) | [Southern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/s_hemi_latitudeVSwindspeed.png)
+![Northern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/n_hemi_latitudeVScloudiness.png) | ![Southern Hemisphere City Latitude vs. Cloudiness (%)](/WeatherPy/Images/s_hemi_latitudeVScloudiness.png) 
+![Northern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/n_hemi_latitudeVSwindspeed.png) | ![Southern Hemisphere City Latitude vs. Wind Speed (mph)](/WeatherPy/Images/s_hemi_latitudeVSwindspeed.png)
 
 ---
 ### Defining parameters to find locations with ideal weather conditions: 
