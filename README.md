@@ -1,8 +1,9 @@
-#### **Planning a vacation with data:** 
--Which locations have the best weather in mid-October? 
--Where can I stay? 
+## Planning a vacation with data:
+* Which locations have the best weather in mid-October? 
+* Where can I stay? 
 
 Let's start at the top ... or the bottom ...
+
 Northern Hemisphere or Southern Hemisphere? 
 
 How does latitude affect weather parameters such as temperature, humidity, cloudiness, and wind speed? We took a random sampling of 605 cities across the globe, and compared them in terms of latitude versus current weather data. Weather data was collected on 10/27/2020 from the Open Weather API by an analyst based in the eastern United States.  
@@ -40,8 +41,8 @@ The scatter plot above shows there is no relationship between wind speed and a c
 
 ---
 
-#### Northern Hemisphere | Southern Hemisphere
--------------------------|-----------------------
+**Northern Hemisphere** | **Southern Hemisphere**
+--------------------- | ---------------------
 ![Northern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/n_hemi_latitudeVStemp.png) | ![Southern Hemisphere City Latitude vs. Max Temperature](/WeatherPy/Images/s_hemi_latitudeVStemp.png)
 
 
