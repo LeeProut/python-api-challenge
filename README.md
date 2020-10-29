@@ -6,7 +6,7 @@ Let's start at the top ... or the bottom ...
 
 Northern Hemisphere or Southern Hemisphere? 
 
-How does latitude affect weather parameters such as temperature, humidity, cloudiness, and wind speed? I took a random sampling of 605 cities across the globe, and compared them in terms of latitude versus current weather data. Weather data was collected on 10/27/2020 from the Open Weather API by an analyst based in the eastern United States.  
+How does latitude affect weather parameters such as temperature, humidity, cloudiness, and wind speed? I took a random sampling of 605 cities across the globe, and compared them in terms of latitude versus current weather data. Current weather data was collected on 10/28/2020 from the Open Weather API.  
 
 ![City Latitude vs. Max Temperature (F) Scatter Plot](/WeatherPy/Images/latitudeVStemp.png)
 
@@ -54,7 +54,7 @@ The scatter plot above shows there is no relationship between wind speed and a c
 3. Cloudiness less than 25%
 4. Wind Speed below 5 mph
 
-Let's visualize locations that meet our criteria on a humidity heatmap: 
+Visualizing locations that meet our criteria on a humidity heatmap: 
 
 ![Humidity Heatmap with ideal locations pinpointed](/VacationPy/Images/humidity_heatmap_with_hotel_markers.png)
 
